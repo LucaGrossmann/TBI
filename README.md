@@ -6,7 +6,7 @@ Multilinear PCA for block tensors. TBI extends Multiple Co-Inertia Analysis (MCI
   <img src="assets/block_tensor.jpg" alt="A block tensor: m subjects × p variables × n timepoints, partitioned along the variable axis into K blocks." width="640">
 </p>
 <p align="center">
-  <em>A block tensor: $m$ subjects × $p$ variables × $n$ timepoints, with the variable axis partitioned into $K$ blocks (e.g. one block per omics assay).</em>
+  <em>A block tensor: m subjects × p variables × n timepoints, with the variable axis partitioned into K blocks (e.g. one block per omics assay).</em>
 </p>
 
 ## What TBI does
