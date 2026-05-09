@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TBI"
+version = "0.1.0"
+description = "Tensor Block Interpreter — multilinear PCA for block tensors via the star-M tensor algebra."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Luca Grossmann"},
+    {name = "Misha Kilmer"},
+    {name = "Anna Konstorum"},
+]
+keywords = ["tensor decomposition", "multi-block", "MCIA", "t-SVDM", "multi-omics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "matplotlib",
+    "pandas",
+    "scikit-learn",
+    "mprod",  # used by the Suez2018 dataset loader
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

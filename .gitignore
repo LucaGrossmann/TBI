@@ -1,0 +1,28 @@
+# Cached data (root-level only — src/TBI/data/ is the package)
+/data/
+
+# Generated figures
+/figures/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# IDE / OS
+.pytest_cache/
+.DS_Store
+.vscode/
+.idea/
+
+# LaTeX (in case anyone drops a paper here)
+*.aux
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.out
+*.toc
