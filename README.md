@@ -123,7 +123,9 @@ TBI is the consensus-MCIA-style symmetric counterpart to block-tPLS: same blocks
 
 ## Citation
 
-A paper accompanies this code. Until it appears, please cite as:
+A paper accompanies this code. The underlying thesis is archived at
+<http://hdl.handle.net/10427/QV33SB804>. Until the paper appears, please
+cite as:
 
 ```bibtex
 @misc{grossmann2026tbi,
